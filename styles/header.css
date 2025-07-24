@@ -1,0 +1,100 @@
+body{
+  width: 1440px;
+  height: 4612px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px; 
+  width: 1140px;
+  margin: 0 auto;
+}
+.link{
+text-decoration: none;
+color: black;
+
+}
+.lists{
+  display: flex;
+
+}
+ul li{
+  margin-left: 48px;
+  list-style: none;
+}
+.logo-img{
+  width: 135px;
+  height: 82px;
+}
+.cart{
+  display: flex;
+  align-items: center;
+  width: 113px;
+  justify-content: space-between;
+}
+.cart-img{
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.home{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #252432;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.shop ,.about{
+  color:#8987A1;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+
+ 
+}
+.cart-amount{
+  color:#000000;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+}
+  
+.hero-flower{
+  display: grid;
+  width: 1140px;
+  grid-template-columns: 570px 570px;
+  height: 461px;
+  justify-content: bottom;
+  align-items: end;
+  margin: 0 auto;
+
+
+}
+.hf-title, .hf-details{
+  width: 570px;
+}
+
+.hf-title{
+  color: black;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 4.0625rem;
+
+}
+.fresh{
+  color: #E95A08;
+}
+.hf-details{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 13px;
+}
