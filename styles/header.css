@@ -1,15 +1,17 @@
+
+
 body{
   width: 1440px;
-  height: 4612px;
+  
+  background-color: #F5F8FF;
 
 }
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 150px; 
   width: 1140px;
-  margin: 0 auto;
+  margin: 30px 150px 120px 150px;
 }
 .link{
 text-decoration: none;

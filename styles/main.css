@@ -57,9 +57,10 @@
 .f-name{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: medium;
+  font-weight: 600;
   font-size: 1.375rem;
   color: #111111;
+  margin-bottom: 20px;
 }
 .price{
   font-family: "Inter", sans-serif;
@@ -67,6 +68,7 @@
   font-weight: bold;
   font-size: 1.375rem;
   color: #111111;
+  margin-bottom: 30px;
 }
 .add-btn{
   background-color: #E95A08;
@@ -120,7 +122,9 @@
   font-weight: bold;
   font-size: 3.125rem;
   width: 540px;
-  margin-left: 60px;
+  margin-left: 15px;
+  
+  
 }
 
 .li-item{
@@ -130,6 +134,7 @@
   color: rgba(0, 0, 0, 0.5);
   list-style-type: disc;
   margin-bottom: 20px;
+  
 }
 .badge{
   width: 286px;
@@ -285,6 +290,7 @@ div input{
   height: 50px;
   padding: 0 20px;
   border: none;
+  background-color: white;
 }
 .subs-btn{
   width: 186px;
