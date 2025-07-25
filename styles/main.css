@@ -249,3 +249,61 @@
   left: 15%
 
 }
+
+
+
+.join-sec{
+  width: 1440px;
+  background-image: url("../assets/news-letter-bg.png");
+  object-fit: cover;
+  height: 533px;
+  margin-top: 120px;  
+
+}
+.join-item{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 533px;
+}
+.join-title{
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: white;
+  margin-bottom: 30px;
+
+
+}
+div input{
+  width: 604px;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+}
+.subs-btn{
+  width: 186px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  background-color: #E95A08;
+  border: none;
+}
+.subs-link{
+  text-decoration: none;
+  color: white;
+}
+
+.input-email{
+  display: flex;
+  align-items: center;
+}
