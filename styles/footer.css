@@ -52,3 +52,15 @@
   object-fit: 100%;
   border-radius: 48px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-links{
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .footer-box{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
